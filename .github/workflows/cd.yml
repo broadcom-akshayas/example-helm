@@ -1,5 +1,6 @@
 name: 'Deploy'
-on: ['deployment']
+#on: ['deployment']
+on: ['push']
 
 jobs:
   deployment:
